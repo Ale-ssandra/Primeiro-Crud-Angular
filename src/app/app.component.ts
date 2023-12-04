@@ -36,7 +36,7 @@ const ELEMENT_DATA: PeriodicElement[] = [
 })
 export class AppComponent {
   title = 'crud-angular';
-  displayedColumns: string[] = ['demo-position', 'demo-name', 'demo-weight', 'demo-symbol'];
+  displayedColumns: string[] = ['demo-position', 'demo-name', 'demo-weight', 'actions'];
   dataSource = ELEMENT_DATA;
 }
 // Para eu usar o componnet sem o arquivo app.modules eu tenho importar o componente onde queo chamar ele
